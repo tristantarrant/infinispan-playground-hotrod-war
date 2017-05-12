@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+
+    <display-name>Infinispan Hot Rod server</display-name>
+
+    <listener>
+        <listener-class>net.dataforte.infinispan.playground.embeddedhotrod.HotRodServerBootstrap</listener-class>
+    </listener>
+
+</web-app>
